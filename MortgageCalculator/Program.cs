@@ -59,7 +59,7 @@ namespace MortgageCalculatorMain
         /// </summary>
         static void Main(string[] args)
         {
-            string inputFile = "prospects.txt";
+            string inputFile = "../../prospects.txt";
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             try
             {
