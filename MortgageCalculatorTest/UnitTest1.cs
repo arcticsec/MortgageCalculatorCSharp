@@ -10,7 +10,7 @@ namespace MortgageCalculatorTest
         [TestCase("Jane,Doe", 3200, 5, 4, 73.69)]
         public void TestValidInput(string customer, double loan, double interest, int years, double expectedResult)
         {
-            var customerTest = new MortgageCalculator.Customer
+            var customerTest = new MortgageCalculatorMain.Customer
             {
                 Name = customer,
                 TotalLoan = loan,
